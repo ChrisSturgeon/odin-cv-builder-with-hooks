@@ -1,4 +1,19 @@
-:root {
+.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.right {
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
 }
