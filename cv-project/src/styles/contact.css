@@ -1,0 +1,12 @@
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-name {
+  grid-column: 1 / 2;
+}
+
+.contact-other {
+  grid-column: 2 / 3;
+}
